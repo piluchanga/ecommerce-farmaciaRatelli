@@ -1,11 +1,12 @@
 import React from 'react'
 import CartWidget from '../CartWidget/CartWidget'
+import './NavBar.css'
 
 const NavBar = () => {
   return (
     <header>
         {/* bg-body-tertiary */}
-        <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-white">
+        <nav className="navbar navbar-expand-lg sticky-top navbar-light navBar">
             <div className="container-fluid">
                 <span className="navbar-brand mb-0 h1"><h1>Farmacia Ratelli</h1></span>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
