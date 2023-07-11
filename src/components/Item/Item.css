@@ -1,8 +1,21 @@
 .img-fluid {
-    width: 30%;
+     width: 150px; 
+     object-fit: contain;
 }
 
 .item {
-    margin-top: 35px;
-    width: max-content;
+    /* margin-top: 35px;
+     */
+    width: 15rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    border-left: var(--bs-card-border-width) solid var(--bs-card-border-color) !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-footer {
+    background-color: unset !important;
+    border-top: none !important;
 }
