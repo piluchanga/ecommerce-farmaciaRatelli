@@ -44,9 +44,7 @@ const ItemDetail = ({id, nombre, precio, img, descripcion, stock, idCategoria}) 
   <p className="card-text">{descripcion}</p>
 </div>
 {botonCondicional()}
-{/* {
-  cantidadElejida > 0 ? (<Link className="btn btn-secondary" to={`/categoria/${idCategoria}`}> Seguir Comprando </Link>, <Link className="btn btn-secondary" to={`/carrito`}> Terminar Compra </Link>) : (<ItemCount stock={stock} funcionAgregarAlCarrito={agregarAlCarrito} />)
-} */}
+
 </div>
   )
   

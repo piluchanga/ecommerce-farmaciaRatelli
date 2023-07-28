@@ -20,10 +20,7 @@ const ItemDetailContainer = () => {
       }).catch(error => console.log(error))
     },[idItem])
 
-   /*  useEffect(() => {
-        getProducto(idItem).then(result => setProducto(result));
-    }, [idItem])
-     */
+
 
   return (
     <div>

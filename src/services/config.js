@@ -2,7 +2,6 @@ import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore"
 
 const firebaseConfig = {
-  //apiKey: "AIzaSyBPnuhmEUqO8WDKfLXrXOo8C8K6qY9-rug",
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "ecommerce-reactjs-20e39.firebaseapp.com",
   projectId: "ecommerce-reactjs-20e39",

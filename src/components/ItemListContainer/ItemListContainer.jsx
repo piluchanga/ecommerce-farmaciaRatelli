@@ -23,13 +23,6 @@ const ItemListContainer = (props) => {
     }).catch(error => console.log(error))
   },[idCategoria])
 
-
- /*  useEffect(() => {
-    const funcionProductos = idCategoria ? getProductosPorCategoria : getProductos;
-
-    funcionProductos(idCategoria).then(result => setProductos(result) )
-  }, [idCategoria]) */
-
   return (
     <>
       <h2 className='titulo'>{props.greeting}</h2>
