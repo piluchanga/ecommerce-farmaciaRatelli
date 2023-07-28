@@ -3,8 +3,8 @@ import './ItemList.css'
 
 const ItemList = ( {productos} ) => {
   return (
-    <div className='card-group'>
-        {productos.map(prod => <Item key={prod.id}{...prod} /> )}
+    <div className="row row-cols-auto justify-content-md-center">
+      {productos.map(prod => <Item key={prod.id}{...prod} />)}
     </div>
   )
 }

@@ -1,3 +1,20 @@
 .navBar {
-    background-color: azure;
+    background-color: #3fc99b;
+}
+
+h1 {
+    color: white !important;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+header {
+    display: block;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
 }

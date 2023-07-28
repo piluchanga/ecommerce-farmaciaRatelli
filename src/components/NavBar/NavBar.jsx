@@ -7,14 +7,17 @@ const NavBar = () => {
   return (
     <header>
         {/* bg-body-tertiary */}
-        <nav className="navbar navbar-expand-lg sticky-top navbar-light navBar">
+        <nav className="navbar navbar-expand-lg fixed-top navbar-light navBar">
             <div className="container-fluid">
-                <Link to="/" className="navbar-brand mb-0 h1">
-                    <h1>Farmacia Ratelli</h1>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                </Link>
+                
+                    
+                    <Link to="/" className="navbar-brand mb-0 h1">
+                    <h1>Farmacia Ratelli</h1>
+                    </Link>
+                    
                     
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">

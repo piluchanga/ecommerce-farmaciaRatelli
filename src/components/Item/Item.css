@@ -6,7 +6,7 @@
 .item {
     /* margin-top: 35px;
      */
-    width: 15rem;
+    width: 20rem;
     padding: 1rem;
     margin-right: 1rem;
     display: flex;
@@ -19,3 +19,13 @@
     background-color: unset !important;
     border-top: none !important;
 }
+
+.card-content {
+    margin-bottom: 1.25rem;
+}
+
+div.card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
