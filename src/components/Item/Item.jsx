@@ -12,7 +12,7 @@ const Item = ({id, nombre, precio, img}) => {
           <p className="card-text">${precio} </p>
         </div>
         <div className="card-footer">
-          <Link to={`/item/${id}`} className='btn btn-info btn-block' type='button' role='button'>Ver Detalles</Link>
+          <Link to={`/item/${id}`} className='boton btn' type='button' role='button'>Ver Detalles</Link>
         </div>
       </div>
     </div>

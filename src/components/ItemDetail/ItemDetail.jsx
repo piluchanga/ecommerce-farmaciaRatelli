@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import ItemCount from '../ItemCount/ItemCount'
 import { CarritoContext } from '../../context/CarritoContext';
 import { Link } from 'react-router-dom';
+import "./ItemDetail.css"
 
 const ItemDetail = ({id, nombre, precio, img, descripcion, stock, idCategoria}) => {
 
@@ -19,8 +20,8 @@ const ItemDetail = ({id, nombre, precio, img, descripcion, stock, idCategoria}) 
     if(cantidadElejida > 0) {
       return (
         <>
-        <Link className="btn btn-secondary" to={`/categoria/${idCategoria}`}> Seguir Comprando </Link>
-        <Link className="btn btn-secondary" to={`/carrito`}> Terminar Compra </Link>
+        <Link className="btn boton boton-compra" to={`/categoria/${idCategoria}`}> Seguir Comprando </Link>
+        <Link className="btn boton boton-compra boton-finalizar" to={`/carrito`}> Finalizar Compra </Link>
         </>
       )
     } else {

@@ -1,0 +1,10 @@
+.boton-vacio {
+    background-color: white;
+    color: #3fc99b !important;
+    border-color: #3fc99b !important;
+}
+
+.boton-finalizar {
+    display: block !important;
+    width: 50%;
+}

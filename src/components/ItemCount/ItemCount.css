@@ -1,0 +1,16 @@
+.boton{
+    background-color: #3fc99b !important;
+    color: white !important;
+}
+
+.botones-contador {
+    width: 70% !important;
+}
+
+.boton-agregar {
+    margin-top: 5px;
+}
+
+.cantidad {
+    width: 50% !important;
+}
